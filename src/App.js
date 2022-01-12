@@ -1,11 +1,12 @@
 import React from 'react'
+import NewsFeed from './components/NewsFeed'
+import CurrencyConverter from './components/Currency'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        Crypto Dashboard
-      </header>
+      <CurrencyConverter />
+      <NewsFeed />
     </div>
   );
 }
